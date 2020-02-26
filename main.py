@@ -10,7 +10,7 @@ from activation_functions import relu
 
 def main():
     # create a neural network
-    neural_network = NeuralNetwork(1, 1, tanh)
+    neural_network = NeuralNetwork(1, 1, sigmoid)
 
     # generate data set
     x = np.linspace(-2*math.pi, 2*math.pi, 200)[:, None]
